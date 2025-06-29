@@ -1,31 +1,31 @@
 variable "sg_name" {
-    type = string
-  
+  type = string
+
 }
 
 variable "sg_description" {
-    type = string
-  
+  type = string
+
 }
 
 variable "vpc_id" {
-    type = string
-  
+  type = string
+
 }
 
 variable "project" {
-    type = string
-  
+  type = string
+
 }
 
 
 variable "environment" {
-    type = string
-  
+  type = string
+
 }
 
 variable "sg_tags" {
-    type = map(string)
-    default = {}
-  
+  type    = map(string)
+  default = {}
+
 }
